@@ -1,5 +1,5 @@
 {
-  "name": "webm-player",
+  "name": "ebml-player",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ebml-demuxer": "^1.1.0"
+    "ebml-demuxer": "^1.1.0",
+    "ebml.js": "^4.1.2"
   },
   "devDependencies": {
     "webpack": "^5.107.2",

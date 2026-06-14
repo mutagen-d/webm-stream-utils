@@ -6,7 +6,7 @@ const TerserPlugin = require('terser-webpack-plugin')
 const library = 'WebmStream'
 const base = {
   entry: {
-    'webm-stream': './src/index.js',
+    'webm-stream-utils': './src/index.js',
   },
   mode: 'production',
   devtool: 'source-map',

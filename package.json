@@ -1,15 +1,28 @@
 {
-  "name": "webm-stream",
+  "name": "webm-stream-utils",
   "version": "1.0.0",
-  "description": "",
+  "description": "A high-level toolkit for playing and recording live WebM/EBML streams in the browser.",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ebml",
+    "webm",
+    "mkv",
+    "matroska",
+    "stream",
+    "live",
+    "player",
+    "recorder"
+  ],
+  "author": "mutagen-d",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mutagen-d/webm-stream-utils.git"
+  },
   "dependencies": {
     "ebml-demuxer": "^1.1.0",
     "ebml.js": "^4.1.2"

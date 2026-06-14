@@ -8,6 +8,8 @@ class EbmlPlayer {
    */
   constructor(media, options) {
     this.player = new MSEPlayer(media)
+    options ||= {}
+    options.tracks ||= ['video', 'audio']
     this.stream = new EbmlDemuxer(options)
 
     this.onTracks = this.onTracks.bind(this)
